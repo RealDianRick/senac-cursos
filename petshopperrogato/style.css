@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #4682b4;
+}
+
+header{
+	background-color: #FFFFFF;
+}
+
+header img{
+	background-color: #FFFFFF;
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#testeira{
+	background-color: #add8e6;
+	width: 100%;
+	height: 300px;
+	display: table;
+}
+
+#testeira img{
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+	
+}
+
+
+.conjunto-produtos-recentes{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	background-color: #00d2ff;
+	margin: 40px 0px 40px 0px;
+	align-items: center;
+}
+
+.produtos-recentes{
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.produtos-recentes img{
+	width: 55%;
+	margin: 0px auto 0px auto;
+}
+
+
+.titulo-produtos-recentes{
+	float: left;
+	width: 100%;
+	font-size: 36px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #a4a1cc;
+}
+
+.produtos-recentes{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+
+footer{
+	width: 100%;
+	background-color: aqua;
+	padding: 40px 40px 40px 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Cor da minha testeira #00d2ff 
+Cor do meu cabecalho #FFFFFF
+Cor do background #454343
+
+
+*/
