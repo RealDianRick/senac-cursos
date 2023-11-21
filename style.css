@@ -9,6 +9,7 @@ body{
 
 header{
 	background-color: #FFFFFF;
+	
 }
 
 header img{
@@ -17,6 +18,7 @@ header img{
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 50px;
 }
 
 #testeira{
@@ -85,18 +87,56 @@ h1{
 
 
 footer{
+	float: left;
 	width: 100%;
 	background-color: #FFFFFF;
 	padding: 40px 40px 40px 40px;
+	border-style: solid;
+	borde-rolor: darkslateblue;
+	border-width: 5px;
+}
+
+footer p{
+	float: left;
+	font-samily: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	color: #000000;
+}
+
+footer img{
+	float: left;
+	margin: 0px 30px 0px 30px;
+	width: 200px;
+	height: 200px;
+}
+
+.cachorroanimacao{
+	width: 300px;
+	height: 250px;
+	
 }
 
 
-
-
-
-
-
-
+/* Retirando o sublinhado do link */
+.email{
+	text-decoration: none;
+}
+/* Cor padrão do link */
+.email:link{
+	color: #3366cc;
+}
+/* Cor do link quando já foi visitado */
+.emai:visited{
+	color: #795cb2;
+}
+/* Cor do link quando passa o mouse por cima */
+.email:hover{
+	text-decoration: underline;
+}
+/* Cor do link quando está clicando nele */
+.email:active{
+	color: #FAA700;
+}
 
 
 
