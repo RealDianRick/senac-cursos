@@ -8,7 +8,7 @@ body{
 }
 header{
 	background-color: #FFFFFF;
-	padding: 5%;
+	padding: 3%;
 }
 
 header img{
@@ -79,8 +79,8 @@ footer{
 	background-color: #FFFFFF;
 	padding: 40px 40px 40px 40px;
 	border-style: solid;
-	border-color: darkslateblue;
-	border-width: 5px;
+	border-color: #000000;
+	border-width: 1px;
 }
 footer img{
 	float: left;
