@@ -1,57 +1,81 @@
 <!doctype html>
 <html>
-
-	
 	<head>
 		<meta charset="UTF-8">
 		<title>Pet Shop PerroGato</title>
 		<link rel="stylesheet" href="style.css">
-		<link rel="icon" href="img/icone.png">	
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min">
+		<!-- or -->
+		<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+		<link rel="icon" type="image/png" href="img/icone.ico">	
 	</head>
 	<body>
+		<!-- Introdução do logo no cabeçalho -->
 		<header>
 			<a href="index.html"><img class="logotipo" src="img/logotipo.png" alt="Logotipo Pet Shop PerroGato"></a>
 		</header>
+		<!-- Introdução da testeira/banner -->
 		<div id="testeira">
 			<img src="img/testeira.jpg" alt="Testura Pet Shop Perrogato">
 		</div>
-		<h1>Seja bem vindo ao Pet Shop PerroGato</h1>
-		<div class="texto"><p>O melhor Pet Shop para seu pet, estamos há anos no mercado, sempre buscando a satisfacao dos nossos clientes </p></div>
-		<div class="conjunto-produtos-recentes">
-			<div class="produtos-recentes">
-				<img src="img/cachorrobanho.jpg" id="banner">
-				<p>Banho<br>
-				Preço: R$50,00</p>
-			</div>	
+		<!-- Conteúdo escrito -->
+		<main>
+			
+			<div class="titulo-centralizado">
+				<h1>Seja bem vindo ao Pet Shop PerroGato</h1><br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod commodo quam, a elementum felis consequat iaculis. Phasellus sed ligula lacus. Suspendisse risus dolor, vestibulum id tincidunt vel, sodales sit amet ex. In lacus mauris, condimentum non dignissim ut, ornare sed eros. Sed placerat interdum ligula sed convallis. Morbi ut quam mi. Fusce nec elementum odio, eu tempus urna. Sed sit amet est a dui dignissim iaculis quis vitae mauris. Maecenas sodales venenatis est, facilisis congue purus dignissim ut. Vivamus scelerisque urna quis lorem dictum tincidunt. Aliquam porta non ante sed tempor. In id egestas dui, faucibus placerat lorem. Aenean facilisis ex vitae nulla pellentesque interdum. Aenean vehicula quam risus, nec maximus eros pretium non.</p><br>
+				<p>Suspendisse placerat ex ut ullamcorper porttitor. Curabitur ultricies, purus vel faucibus mollis, enim dui rhoncus velit, non eleifend enim eros vel urna. Donec tincidunt sem ut neque ultricies sagittis. Proin tempus diam velit, eu tristique ligula accumsan quis. Ut sit amet sem sed lacus sagittis commodo. Suspendisse potenti. Pellentesque blandit eu neque a tristique.</p>
+				<!-- <p>O melhor Pet Shop para seu pet, estamos há anos no mercado, sempre buscando a satisfacao dos nossos clientes.</p> -->
+			</div>
+			<!-- Introdução das imagens dos produtos e seus respectivos valores -->
+			<div class="conjunto-produtos-recentes">
+				<div class="produtos-recentes">
+					<img src="img/cachorrobanho.jpg" id="produto1">
+					<p>Banho<br>
+					Preço: R$50,00</p>
+				</div>	
 			<div class="produtos-recentes"> 
-				<img src="img/cachorrotosa.jpg" id="banner">
+				<img src="img/cachorrotosa.jpg" id="produto2">
 				<p>Tosa<br>
 					Preço: R$100,00</p>
 			</div>
 			<div class="produtos-recentes">
-				<img src="img/cachorroveterinario.jpg" id="banner">
+				<img src="img/cachorroveterinario.jpg" id="produto3" alt="Imagem de um cachorro no veterinário">
 				<p>Atendimento Clínico<br>
 					Preço: R$200,00</p>		
 			</div>
-		</div>
-		<div class="whats">
-			<a href="https://wa.me/551140028922" target="_clank">
-				<img src="img/icone-whats.png" width="75px" alt="Fale Conosco pelo WhatsApp" title="Fale Conosco pelo WhatsApp">
+			</div>
+			<h2>Benefícios</h2>
+			<ul>
+				<li>Atendimento aos clientes</li>
+				<li>Espaço diferenciado</li>
+				<li>Localização</li>
+				<li>Profissionais Qualificados</li>
+			</ul>
+		</main>
+		<!-- Introdução do ícone de contato por WhatsApp -->
+		<div class="whats-icon">
+			<a href="https://wa.me/551140028922" target="_blank">
+				<img src="img/icone-whats.png" alt="Fale Conosco pelo WhatsApp" title="Fale Conosco pelo WhatsApp" id="whats-icon">
 			</a>
-			
 		</div>
 		<footer>
-				<img class="cachorroanimacao" src="img/cachorromexendo.gif" width="300" height="250" alt="imagem animada de um cachorro correndo">
-				<p>Pet Shop PerroGato: <a href="mailto:petshopperrogato@gmail.com">petshopperrogato@gmail.com</a></p> 
-			</footer>
-			
-		
-
-		 
-		
-		
+			    <!-- Introdução de um gif -->
+				<img class="cachorroanimacao" src="img/cachorromexendo.gif" alt="imagem animada de um cachorro correndo">
+				<!-- Introdução dos dados de contato -->
+				<div class="dados-de-contato">
+					<p><strong>Contato</strong></p><br>
+					<p><a href="https://wa.me/551140028922" target="_blank"><img src="img/icone-whats-contato.png" alt="Nos envie uma mensagem WhatsApp" class="whatsapp">WhatsApp da empresa</a></p>
+					<p><a href="mailto:petshopperrogato@gmail.com"><img src="img/icone-email-contato.png" alt="Nos envie um email" class="email">Email da empresa</a></p> 
+				</div>
+				<!-- Introdução das Redes Sociais -->
+				<div class="redes-sociais">
+					<p><strong>Redes Sociais</strong></p><br>
+					<a href="https//www.instagram.com/perrogato/" target="_blank">
+						<img src="img/icone-instagram-redes-sociais.png" alt="Visite nosso instagram"  class="instagram"></a>
+					<a href="https//www.facebook.com/perrogato/" target="_blank">
+						<img src="img/icone-facebook-redes-sociais.png" alt="Visite nosso facebook" class="facebook"></a>
+				</div>
+		</footer>
 	</body>
-	
-	
 </html>
-
