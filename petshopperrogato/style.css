@@ -34,9 +34,28 @@ h1{
 	text-align: center;
 	color: #000000;
 }
-.texto{
-	color: #000000;
+
+.anuncio-texto {
+	
+	background-color:darkred;
+	width: 100%;
+	height: 300px;
+	display: table;
 }
+
+
+.anuncio{
+	float: left;
+}
+
+.texto{
+	background-color:darkorange;
+	float: left;
+	width: 50%;
+}
+
+
+
 .conjunto-produtos-recentes{
 	width: 100%;
 	display: grid;
