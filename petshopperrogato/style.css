@@ -30,30 +30,34 @@ header img{
 	margin-left: auto;
 	margin-right: auto;
 }
-h1{
-	text-align: center;
-	color: #000000;
-}
+
 
 .anuncio-texto {
 	
-	background-color:darkred;
+	background-color: #FFFFFF;
 	width: 100%;
-	height: 300px;
+	height: 200px;
 	display: table;
-}
+	font-family: 'Poppins', sans-serif;
 
+}
 
 .anuncio{
 	float: left;
+	width: 40%;
+	
 }
 
 .texto{
 	background-color:darkorange;
 	float: left;
-	width: 50%;
+	width: 60%;
+	height: 40%;
 }
-
+.texto h1{
+	text-align: center;
+	color: #000000;
+}
 
 
 .conjunto-produtos-recentes{
@@ -113,12 +117,19 @@ footer .dados-de-contato{
 	font-size: 20px;
 	color: #000000;
 }
+footer .dados-de-contato #contato{
+	margin-left: 28px;
+}
 footer .redes-sociais{
 	float: left;
 	font-family: Gotham, "Helvetica Neue", Helvetica,  Arial, sans-serif;
 	font-size: 20px;
 	color: #000000;
 	margin-left: 10%;
+}
+footer .redes-sociais p{
+	margin-left: 25px;
+	
 }
 .whatsapp{
 	width: 28px;
