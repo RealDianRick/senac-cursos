@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="utf-8">
 		<title>Pet Shop PerroGato</title>
 		<link rel="stylesheet" href="style.css">
 		<script type="text/javascript" href="scriptjs"></script>
@@ -13,11 +13,19 @@
 	<body>
 		<!-- Introdução do logo no cabeçalho -->
 		<header>
-			<a href="index.html"><img class="logotipo" src="img/logotipo.png" alt="Logotipo Pet Shop PerroGato"></a>
-			
-			
-			
-			
+			<!-- Removido, em manutenção <a href="index.html"> -->
+			<div class="banner-menu">
+				<div class="logotipo">
+					<img src="img/logotipo.png" alt="Logotipo Pet Shop PerroGato">
+				</div>
+				<div class="menu-principal">
+					<ul>
+						<li><img src="img/icone-compras.png" alt="Carrinho de compras"><a href="#">Carrinho de compras</a></li>
+						<li><img src="img/icone-pedidos.png" alt="Meus pedidos"><a href="#">Meus pedidos</a></li>
+						<li><img src="img/icone-compras.png" alt="Compras recorrentes"><a href="#">Compras recorrentes</a></li>
+						<li><img src="img/icone-login.png" alt="Entrar ou Cadastrar"><a href="#">Entrar | Cadastrar</a></li>
+					</ul>
+				</div>
 			</div>
 		</header>
 		<!-- Menu Principal -->
@@ -35,7 +43,6 @@
 		<div id="testeira">
 			<img src="img/testeira.jpg" alt="Testura Pet Shop Perrogato">
 		</div>
-		
 		<main>
 			<!-- Div de anuncio e do texto de introdução -->
 			<div class="anuncio-texto">
@@ -43,7 +50,7 @@
 						<img src="img/Propaganda1.jpg" alt="Anuncio de black friday">
 					</div>
 					<div class="texto">
-						<h1>Seja bem vindo ao Pet Shop PerroGato</h1>
+						<h2>Seja bem vindo ao Pet Shop PerroGato</h2>
 						<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed mi egestas, aliquam metus vel, gravida tortor. Quisque facilisis nunc id gravida consequat. Fusce porta nibh id facilisis pretium. Suspendisse aliquet sapien neque, sed tincidunt augue gravida eu. Vestibulum ullamcorper erat et elit sodales, in pretium sem laoreet. Integer rhoncus velit et urna vehicula, eu congue libero convallis. Donec eget libero libero.
 						Sed a tellus egestas risus fermentum varius. Suspendisse potenti. In sollicitudin gravida lobortis. Mauris a euismod augue. Ut luctus tristique ipsum ac mattis. Praesent luctus bibendum sodales. Curabitur porta dignissim libero sed faucibus. Phasellus varius id ante volutpat consectetur. Curabitur neque arcu, pellentesque et gravida vel, tempus in est. Ut ultrices, velit id accumsan egestas, augue mauris egestas lorem, id sagittis urna quam id arcu. Ut sed consectetur nulla. Integer porta dui nibh, ac interdum mi lacinia vitae. Proin laoreet dignissim dapibus. Donec ultrices ornare lacinia. Duis accumsan suscipit justo, in porttitor sapien pellentesque sed. Mauris et mollis ligula.
@@ -54,12 +61,12 @@
 			<!-- Introdução das imagens dos produtos e seus respectivos valores -->
 			<div class="conjunto-produtos-recentes">
 				<div class="produtos-recentes">
-					<img src="img/cachorrobanho.jpg">
+					<img src="img/cachorrobanho.jpg" alt="contratar serviço de banho para o seu pet">
 					<p>Banho<br>
 					Preço: R$50,00</p>
 				</div>	
 			<div class="produtos-recentes"> 
-				<img src="img/cachorrotosa.jpg">
+				<img src="img/cachorrotosa.jpg" alt="contratar serviço de tosa para seu pet">
 				<p>Tosa<br>
 					Preço: R$100,00</p>
 			</div>
@@ -70,14 +77,8 @@
 			</div>
 			</div>
 			<!-- Informações sobre benefícios -->
-			<h2>Benefícios</h2>
-			<ul>
-				<li>Atendimento aos clientes</li>
-				<li>Espaço diferenciado</li>
-				<li>Localização</li>
-				<li>Profissionais Qualificados</li>
-			</ul>
 		</main>
+		
 		<!-- Introdução do ícone de contato por WhatsApp -->
 		<div class="whats-icon">
 			<a href="https://wa.me/551140028922" target="_blank">
