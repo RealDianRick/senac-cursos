@@ -13,12 +13,51 @@ header{
 }
 
 header img{
-	background-color: #FFFFFF;
-	display: block;
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
+	padding-left: 10%;
 }
+#compras{
+	text-align: right;
+	list-style: none;
+}
+#compras ul{
+	margin: 0px;
+	list-style: none;
+
+}
+
+#menu-horizontal{
+	text-align: center;
+}
+
+#menu-horizontal ul{
+	margin: 0px;
+	background-color: darkorange;
+	list-style: none;
+	width: 100%;
+
+}
+#menu-horizontal ul li{
+	display: inline;
+
+}
+
+#menu-horizontal ul li a{
+	padding: 0px 10px;
+	display: inline-box;
+	background-color: darkorange;
+	color: #000000;
+	text-decoration: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+
+#menu-horizontal ul li a:hover{
+	background-color: darkorange;
+	color: #FFFFFF;
+	border-bottom: 3px solid #000000;
+	
+}
+
 
 #testeira{
 	background-color: #00d2ff;
@@ -124,7 +163,7 @@ footer{
 	width: 100%;
 	background-color: #FFFFFF;
 	padding: 40px 40px 40px 40px;
-	border-style: d;
+	border-style: none;
 	border-color: #000000;
 	border-width: 1px;
 }
